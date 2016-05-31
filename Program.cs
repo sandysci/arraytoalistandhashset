@@ -11,7 +11,7 @@ namespace writingfromarraytolistandhashset
     {
         static void Main(string[] args)
         {
-            int[] myarray = new int[990001];//intializing the array for 100000
+            int[] myarray = new int[990001];//intializing the array for 1000000
                  Random gen = new Random();//initializing the randon number generator
                  Stopwatch mywatch = new Stopwatch();// initialing the stopwatch
                 
