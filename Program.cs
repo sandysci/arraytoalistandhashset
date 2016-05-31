@@ -11,20 +11,20 @@ namespace writingfromarraytolistandhashset
     {
         static void Main(string[] args)
         {
-            int[] myarray = new int[99001];//intializing the array for 100000
+            int[] myarray = new int[990001];//intializing the array for 100000
                  Random gen = new Random();//initializing the randon number generator
                  Stopwatch mywatch = new Stopwatch();// initialing the stopwatch
                 
-                 for (int i = 0; i <= 99000; i++)
+                 for (int i = 0; i <= 990000; i++)
                  {
-                     int j = (int)(gen.NextDouble() * 1) + (1000 + i);// creating the number from 1000 to .....100000
+                     int j = (int)(gen.NextDouble() * 1) + (1000 + i);// creating the number from 1000 to .....1000000
    
                      myarray[i] = j;//store the number in the ith array
                      
                     
                  }
                                  
-                List<int> mylist = myarray.ToList();//Converting the 100000 number generated to alist
+                List<int> mylist = myarray.ToList();//Converting the 1000000 number generated to alist
                  HashSet<int> myhash = new HashSet<int>(myarray);//passing the array in a hashset
 
 
